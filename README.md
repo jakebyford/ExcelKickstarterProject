@@ -1,4 +1,4 @@
-# Excel-Kickstarter-Project
+# Excel Kickstarter Project
 
 ## Problem Description
 
@@ -10,7 +10,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ![Kickstarter Table](Images/fullTable.png)
 
-Using the Excel table (StarterBook) provided, I modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
+Using the Excel table (StarterBook) provided, I modified and analyzed the data of 4,000 past Kickstarter projects in attempt to uncover some market trends.
 
 - I use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
@@ -24,15 +24,15 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
 
   ![Category Stats](Images/CategoryStats.png)
 
-  - I created a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
+  - I created a new sheet with a pivot table that will analyze the initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
-  - I created a stacked column pivot chart that can be filtered by country based on the table you have created.
+  - I created a stacked column pivot chart that can be filtered by country based on the table created.
 
   ![Subcategory Stats](Images/subcategoryStats.png)
 
-  - I created a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
+  - I created a new sheet with a pivot table that will analyze the initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
-  - I created a stacked column pivot chart that can be filtered by country and parent-category based on the table you have click.
+  - I created a stacked column pivot chart that can be filtered by country and parent-category based on the table.
 
 - The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately, there is a formula (https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
 
@@ -54,7 +54,7 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
 
 ## Additional Sheets
 
-- Created a new sheet with 8 columns:
+- Created a Goal Outcome sheet with 8 columns:
 
   - `Goal`
   - `Number Successful`
@@ -80,7 +80,7 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
   - 45000 to 49999
   - Greater than or equal to 50000
 
-- Using the `COUNTIFS()` formula, I count how many successful, failed, and canceled projects were created with goals within the ranges listed above. We populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
+- Using the `COUNTIFS()` formula, I count how many successful, failed, and canceled projects were created with goals within the ranges listed above. I populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
 - I then add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, found the percentage of projects that were successful, failed, or canceled per goal range.
 
@@ -112,5 +112,4 @@ Finally, I evaluated the number of backers of successful and unsuccessful campai
 
   - The standard deviation of the number of backers.
 
-- Next to the summary statistics data I determined whether the mean or the median summarizes the data more meaningfully. I also
-  determined if there is more variability with successful or unsuccessful campaigns.
+- Next to the summary statistics data I determined whether the mean or the median summarizes the data more meaningfully. I also determined if there is more variability with successful or unsuccessful campaigns.
