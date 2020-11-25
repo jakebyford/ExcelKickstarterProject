@@ -8,7 +8,7 @@ Getting funded on Kickstarter requires meeting or exceeding the project's initia
 
 ### Analysis Goal
 
-![Kickstarter Table](Images/FullTable.PNG)
+![Kickstarter Table](Images/fullTable.png)
 
 Using the Excel table (StarterBook) provided, I modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
 
@@ -22,13 +22,13 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
 
   - I created two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
-  ![Category Stats](Images/CategoryStats.PNG)
+  ![Category Stats](Images/CategoryStats.png)
 
   - I created a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
   - I created a stacked column pivot chart that can be filtered by country based on the table you have created.
 
-  ![Subcategory Stats](Images/SubcategoryStats.PNG)
+  ![Subcategory Stats](Images/subcategoryStats.png)
 
   - I created a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
@@ -40,7 +40,7 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
 
   - I created a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.
 
-  ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
+  ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.pngs)
 
   - I created a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
@@ -80,8 +80,6 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
   - 45000 to 49999
   - Greater than or equal to 50000
 
-  ![Goal Outcomes](Images/GoalOutcomes.PNG)
-
 - Using the `COUNTIFS()` formula, I count how many successful, failed, and canceled projects were created with goals within the ranges listed above. We populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
 - I then add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, found the percentage of projects that were successful, failed, or canceled per goal range.
@@ -98,7 +96,7 @@ Finally, I evaluated the number of backers of successful and unsuccessful campai
 
 - Created a new worksheet in my workbook, and created a column each for the number of backers of successful campaigns and unsuccessful campaigns.
 
-  ![Images/backers01.png](Images/backers01.png)
+  ![Images/backers01.png](Images/backers.png)
 
 - Then I evaluated the following for successful campaigns, and then for unsuccessful campaigns:
 
