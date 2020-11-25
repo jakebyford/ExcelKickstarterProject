@@ -40,7 +40,7 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
 
   - I created a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.
 
-  ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.pngs)
+  ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.png)
 
   - I created a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
@@ -86,7 +86,7 @@ Using the Excel table (StarterBook) provided, I modify and analyze the data of 4
 
 - I created a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-![Goal Outcomes](Images/GoalOutcomes.PNG)
+![Goal Outcomes](Images/goalOutcomes.png)
 
 ## Statistical Analysis
 
